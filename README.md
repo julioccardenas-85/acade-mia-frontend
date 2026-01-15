@@ -1,6 +1,25 @@
-# AcadeMia
+# AcadeMia Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the frontend application for AcadeMia, a comprehensive web application for managing educational academies. Built with Vue.js 3 and Vite, it provides a user-friendly interface for administrators to manage users, instructors, groups, student enrollments, scheduling, and payment processing.
+
+## Features
+
+- **User Interface**: Modern, responsive UI using Vuetify and Bootstrap components.
+- **Authentication**: Secure login and route protection with JWT tokens.
+- **Module Management**: Navigate through different modules like users, instructors, groups, agenda, and payments.
+- **Calendar Integration**: Interactive calendar for scheduling classes and events using FullCalendar.
+- **Payment Integration**: Interface for processing payments via MercadoPago, including success/failure handling and manual payments.
+- **CRUD Operations**: Create, read, update, and delete functionality for users, instructors, and groups.
+
+## Technologies Used
+
+- **Vue.js 3**: Progressive JavaScript framework for building user interfaces.
+- **Vite**: Fast build tool and development server.
+- **Vuetify**: Material Design component framework for Vue.
+- **Bootstrap**: CSS framework for responsive design.
+- **FullCalendar**: JavaScript calendar library for scheduling.
+- **Axios**: HTTP client for API requests.
+- **Vue Router**: Official router for Vue.js for single-page application navigation.
 
 ## Recommended IDE Setup
 
@@ -43,4 +62,10 @@ npm run build
 
 ```sh
 npm run lint
+```
+
+### Format Code
+
+```sh
+npm run format
 ```
